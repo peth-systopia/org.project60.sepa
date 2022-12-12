@@ -2,26 +2,23 @@
 If your organisation is in Europe and uses CiviCRM to manage recurring contributions, you will need this extension.
 
 ## Introduction to SEPA
-SEPA is EU regulation. It describes under what conditions organisations in the European Union can collect money from their contacts bank accounts through direct debit and on the basis of a mutual agreement (called a "mandate") between organisation and contact. 
+SEPA is a framework which describes under what conditions organisations in the European Union (and some partner countries) can collect money from their contacts' bank accounts through direct debit and on the basis of a mutual agreement (called a "mandate"). 
 
 ## CiviSEPA
 CiviSEPA is a CiviCRM extension that enables SEPA compliant direct debit actions with your constituents.
 
-This branch is currently maintained by Xavier Dutoit (TTTP, xavier@tttp.eu) and Björn Endres (SYSTOPIA, endres@systopia.de).
+This branch is currently maintained by Björn Endres (SYSTOPIA, endres@systopia.de).
 
 View this extension in the [Extension Directory](https://civicrm.org/extensions/civisepa-sepa-direct-debit-extension).
 
-Find more documentation on http://wiki.civicrm.org/confluence/display/CRM/CiviSEPA
-
-**Important:** Please download a [official release](https://github.com/Project60/org.project60.sepa/releases)! Don't use the ``master`` branch unless you want bleeding edge and you know what you're doing.
+**Important:** Please download an [official release](https://github.com/Project60/org.project60.sepa/releases)! Don't use the ``master`` branch unless you want bleeding edge and you know what you're doing.
 
 ## What it can do
 * OOFF and RCUR payments
-* SEPA dashboard gives you great status overview
-* payment processer for online donations and event registrations[*](https://github.com/Project60/org.project60.sepa/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+event+registration+)
-* UI to manipulate mandates
-* automatic BIC lookup if [Little BIC Extension](https://github.com/Project60/org.project60.bic) in installed
-* full SEPA group life cycle: 'open'-'closed/sent'->'received'
+* the SEPA dashboard gives you a comfortable status overview
+* UI to edit and manipulate mandates
+* automatic BIC lookup if [Little BIC Extension](https://github.com/Project60/org.project60.bic) is installed
+* full SEPA group life cycle: 'open'->'closed/sent'->'received'
 * record SEPA payment action and form for contacts
 * manual batching with parameters for notice period and horizon
 * automatic adjustment of late OOFF and RCUR transactions
@@ -29,7 +26,6 @@ Find more documentation on http://wiki.civicrm.org/confluence/display/CRM/CiviSE
 
 ## What it can not (yet) do
 * permission management
-* membership payments
 * automatic submission to the banks
 
 
